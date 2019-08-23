@@ -1,0 +1,65 @@
+body{
+    
+    background-image: url(/UI/assets/ss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+ .menu{
+     display: flex;
+     justify-content: flex-center; 
+     list-style-type: none; 
+     flex-wrap: wrap;
+     background-color: rgba(200, 100, 00, 0.7)
+ }
+.menu li{
+    flex: 1 1 auto;
+}
+ .menu li a{
+     display: block;
+     text-decoration: none;
+     color: white;
+     padding: 20px;
+     transition: background 2s;
+    
+     
+ }
+
+
+ .menu li a:hover{
+     color: blue;
+     background: lightcyan;
+ }
+
+ .content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+     
+
+ .container {
+    background-image: url("/UI/assets/img/bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    }
+    
+.center-box {
+    background-color: rgba(219, 171, 130, 0.6);
+    width: 40%;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    color: black;
+    justify-content: center;
+    margin-bottom: -540px;
+    }
+
+ 
